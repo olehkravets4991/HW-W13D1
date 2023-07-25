@@ -17,7 +17,22 @@ const Projects = (props)=>{
                     <a className="projectA" href="https://clients-list.onrender.com">Clients List</a>
                 </nav>
             </div>
-            
+            <div style={hero}>
+                <h2 style={heroh2}>Project Apps</h2>
+                <div className="projectImage">
+                    
+                <div>
+                        <img className="https://i.imgur.com/cPXKZRn.png"/>
+                        <p>Client List:</p>
+                    </div>
+                    
+                    <div>
+                        <img className="https://i.imgur.com/G3V9oXN.png"/>
+                        <p>Game of Thrones:</p>
+                    </div>
+                    
+                </div>
+            </div>    
         </div>
     )
 }
