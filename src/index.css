@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.project{
+  background-color: rgba(0, 0, 0,0.8); ;
+}
+.header{
+  background-color: rgba(0, 0, 0,0.8);
+}
+.headerA{
+  text-decoration: none;
+  color:rgb(235, 229, 229);
+  padding:10px;
+  font-weight: 700;
+}
+.headerNav{
+  padding:0.8em
+}
+
+.headerA:hover{
+  color:black;
+  background-color: rgb(235, 229, 229);
+  border-radius: 10%;
+ 
+}
+.imagesP{
+  width:100%;
+  height:20em
+}
+
+.projectImage{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap:1em ;
+  padding:0 1em 0 1em;
+}
+.projectNav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.projectA{
+  color:rgb(235, 229, 229);
+}
+.projectNav a{
+  text-decoration: none;
+  font-weight: 700;
+}
+.projectA:hover{
+  background-color:rgb(235, 229, 229);
+  color:black;
+  padding: 0.1rem;
+  border-radius: 10%;
+}
+.projectImage p{
+  font-weight: 700;
+  color:rgb(235, 229, 229);
+}
+
+.footerImage{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.imagesF{
+  width: 100%;
+  height: 4em;
+  border-radius: 50%;
+}
+.footer{
+  background-color: rgba(0, 0, 0,0.8);
+  margin-top: -1.4em;
+}
+.footerImage p, .footer h3{
+  font-weight: 700;
+  color:rgb(235, 229, 229);
+}
