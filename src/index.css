@@ -41,7 +41,7 @@ code {
 }
 
 .projectImage{
-  display: grid;
+  display: flexbox;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap:1em ;

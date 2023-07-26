@@ -22,12 +22,12 @@ const Projects = (props)=>{
                 <div className="projectImage">
                     
                 <div>
-                        <img className="imageP" src="https://i.imgur.com/cPXKZRn.png"/>
+                        <img className="imageP" src="https://i.imgur.com/cPXKZRn.png" style={{ width: "500px", height: "200px" }}/>
                         <p>Client List:</p>
                     </div>
                     
                     <div>
-                        <img className="imageP" src="https://i.imgur.com/G3V9oXN.png"/>
+                        <img className="imageP" src="https://i.imgur.com/G3V9oXN.png" style={{ width: "500px", height: "200px" }}/>
                         <p>Game of Thrones:</p>
                     </div>
                     
